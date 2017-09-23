@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+  <div id="app">
+    <div>
+      <input type="text" v-model="name" placeholder="Your name?">
+      <h5>Hello {{ name }}</h5>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        name: ''
+      }
+    }).$mount('#app');
+  </script>
+</body>
+</html>
