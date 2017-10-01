@@ -88,12 +88,13 @@
                 </span>
             </div>
         </div>
-
     </div>
 
-    <input class="button" type="submit" value="Submit">
+        <div class="container">
+            <input class="button is-pulled-right" type="submit" value="Submit">
+        </div>
     </form>
-
+    <br><br><br>
 
   </div>
   </div>
